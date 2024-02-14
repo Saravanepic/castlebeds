@@ -1,0 +1,53 @@
+<style>
+  .btn__container {
+    text-align: center;
+}
+  .insta_btn {
+	 min-width: 110px;
+	 background: linear-gradient(to right, #ff3019 0%, #c90477 100%);
+	 padding: 14px 50px;
+	 text-decoration: none;
+	 color: #fff;
+	 display: inline-flex;
+	 transition: all 0.2s ease-in-out;
+	 justify-content: center;
+}
+  .insta_btn:hover{
+    background: linear-gradient(to right, #c90477 0%, #ff3019 100%);
+    color: #fff;
+    padding: 14px 60px;
+  }
+ .insta_btn span {
+	 align-self: center;
+	 transition: all 0.1s ease-in-out;
+	 opacity: 1;
+   color: #fff;
+}
+ 
+</style>
+<!-- Button Instagram -->
+<div class="btn__container">
+  <a href="https://www.instagram.com/castle.beds/" target="_blank" class="insta_btn">
+
+    <span>Follow Us</span>
+  </a>
+    
+</div>
+
+{% schema %}
+  {
+    "name": "Insta Button",
+    "settings": [],
+     "presets": [
+      {
+        "name": "Insta Button"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

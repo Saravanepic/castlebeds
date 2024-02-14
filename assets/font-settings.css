@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("//castlebeds.com/cdn/fonts/montserrat/montserrat_n5.e72d00d31ae5399d260a80ec70322c62c1819762.woff2?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=684402befd34339bfd024471eea524c46089ae37279a8f1dcb50eb63a86346e9") format("woff2"),
+       url("//castlebeds.com/cdn/fonts/montserrat/montserrat_n5.18a018b6c83e89030c5d70a6d4c02c969f228500.woff?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=cf1813ee194cd72c7781ed4cc115c99168d76e9cd377b683c80d0d0b72803519") format("woff");
+}
+
+@font-face {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("//castlebeds.com/cdn/fonts/raleway/raleway_n4.e721da6683e65ea8e217c48c3a4254b0476a6709.woff2?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=d03c142dc676edac09f2e858cae14c2a55905697286be60fd9594411a0a2e91b") format("woff2"),
+       url("//castlebeds.com/cdn/fonts/raleway/raleway_n4.c5b6fdec4157e9fa556f2738e9a48cd93d620789.woff?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=b0615f8df4eaa4478933923869d89e7ac169ab3f12b6656e0d18ee058de924a3") format("woff");
+}
+
+@font-face {
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("//castlebeds.com/cdn/fonts/raleway/raleway_n5.8806e3eebc45823d354c5d49afbb18219675b983.woff2?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=284fe0992b9a96bc6829a38ff16ffbc52e2a89980579101591e25fd5547b1bcc") format("woff2"),
+       url("//castlebeds.com/cdn/fonts/raleway/raleway_n5.5c3e7c6d9b56fa8c650c7014334f7bf1cc39f50c.woff?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=1e3c434ff0706f231191da1f688eb43491b7d458a8332af4e2c1334d30dd3029") format("woff");
+}
+
+
+
+  @font-face {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("//castlebeds.com/cdn/fonts/montserrat/montserrat_n6.7a3c341961dc23aaabcc116124b80f2a7abec1a2.woff2?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=44e76735767c0cefc0b038b924079af76c86814ea06d71a54cd0796f1f184481") format("woff2"),
+       url("//castlebeds.com/cdn/fonts/montserrat/montserrat_n6.2c97c1a692c63ad09ab0635cb73b1939c5f417c0.woff?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=d2dddc75b1038a7d27450bdea7d1432b801ae53cafd776919fa7a4c5970c5a19") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("//castlebeds.com/cdn/fonts/raleway/raleway_n5.8806e3eebc45823d354c5d49afbb18219675b983.woff2?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=284fe0992b9a96bc6829a38ff16ffbc52e2a89980579101591e25fd5547b1bcc") format("woff2"),
+       url("//castlebeds.com/cdn/fonts/raleway/raleway_n5.5c3e7c6d9b56fa8c650c7014334f7bf1cc39f50c.woff?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=1e3c434ff0706f231191da1f688eb43491b7d458a8332af4e2c1334d30dd3029") format("woff");
+}
+
+
+
+
+
+
+
+  @font-face {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("//castlebeds.com/cdn/fonts/raleway/raleway_i4.41b3a2a9c9f42636b840169d068a8e0b9287c999.woff2?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=d7806be36d7bb7e75736cdee1c2dacf5ed713969b2cba22c78e14817e9bb2f47") format("woff2"),
+       url("//castlebeds.com/cdn/fonts/raleway/raleway_i4.72e7ebae137779bde0c424e25a6e62b0a6971d01.woff?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=f5a7b47a3ffa159f5bef84a651c9837ba70b346ed20b6d6baf4d7d7f609f782b") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src: url("//castlebeds.com/cdn/fonts/raleway/raleway_i5.a5bbd305eefb8e482c182e0a992fd713c7856a99.woff2?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=5215b9ccbce580003311c275c2e39906cb4130de00d3d8207228390d5008b3f1") format("woff2"),
+       url("//castlebeds.com/cdn/fonts/raleway/raleway_i5.20c6b99d5c6abdfdbb37ab537406115d3af8601b.woff?h1=YW1iZWUyMS5jb20&h2=Y2FzdGxlYmVkcy5jb20&h3=YW1iZWUyMS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=2557b83f41f58c6f7e873d7eb00f0bb16872dedfdca8e2e8a324b270a922cbcb") format("woff");
+}
+

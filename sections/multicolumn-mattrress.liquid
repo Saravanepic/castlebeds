@@ -1,0 +1,70 @@
+{% comment %} image-with-text-custom {% endcomment %}
+<section class="iwt_custom iwt_multicol {{ section.settings.sectionclass }}" style="background-color: {{section.settings.color_title}}">
+  <div class="wrapper--full-padded">
+    <h2 class="red_header">{{ section.settings.heading }} </h2>
+    <div class="iwt_multicol_col_repeater">
+        {% for block in section.blocks %}
+            <div class="multi_col_block">
+              <div class="multi_col_text">
+                  {{ block.settings.textarea }}
+                </div>
+             <img src="{{ block.settings.block_image | image_url : master}}" alt="{{  block.settings.text }}" class="img-fluid" loading="lazy"/>
+            </div>
+        {% endfor %}
+      </div>
+    </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Multi Col - Mattress",
+	"settings": [
+      {
+            "type": "text",
+            "id": "sectionclass",
+            "label": "Class for styling colors"
+      },
+      {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+      },
+      {
+        "type": "color",
+        "id": "color_title",
+        "label": "Background color",
+        "default": "#FFFFFF"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Column",
+        "settings": [
+          {
+           "type": "textarea",
+           "id": "textarea",
+           "label": "Textarea"
+         },
+        {
+          "type": "image_picker",
+          "id": "block_image",
+          "label": "Image"
+        }
+        ]
+      }
+    ],
+"presets": [
+    {
+      "name": "Multi Col - Mattress"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
